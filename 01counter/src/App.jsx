@@ -11,12 +11,17 @@ function App() {
     count=count+1;
     setCount(count);
   }
+  const removeValue = () => {
+    console.log("clicked")
+    count=count-1;
+    setCount(count);
+  }
   return (
     <>
       <h1>My first react basic project</h1>
       <h2>counter value: {count}</h2>
       <button onClick={addValue}>Add</button>
-      <button>Remove</button>
+      <button onClick={removeValue}>Remove</button>
     </>
   )
 }
