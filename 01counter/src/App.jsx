@@ -14,6 +14,9 @@ function App() {
   const removeValue = () => {
     console.log("clicked")
     count=count-1;
+    if(count<0){
+      count=0;
+    }
     setCount(count);
   }
   return (
