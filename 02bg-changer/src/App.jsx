@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="w-full h-screen duration-100" style={{backgroundColor:color}}>
       <div className='fixed flex flex-warp justify-center bottom-12 inset-x-0 px-2'>
-       <div className='flex flex-wrap justify-center shadow-xl justify-center bg-white px-3 py-3 rounded-2xl'>
+       <div className='flex flex-wrap justify-center shadow-xl j bg-white px-3 py-3 rounded-2xl'>
           <button onClick={()=> setColor("red")} className='outline-none px-4 m-1 rounded-full py-1 shadow-lg' style={{backgroundColor:"red",color:"white"}}>Red</button>
           <button onClick={()=> setColor("green")} className='outline-none px-4 m-1 rounded-full py-1 shadow-lg' style={{backgroundColor:"green",color:"white"}}>Green</button>
           <button onClick={()=> setColor("blue")} className='outline-none px-4 m-1 rounded-full py-1 shadow-lg' style={{backgroundColor:"blue",color:"white"}}>Blue</button>
